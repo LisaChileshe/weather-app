@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Sun, Cloud, CloudRain, Droplets, Wind, Search } from 'lucide-react';
 
-const API_KEY = '2deb3055fa20042abf812bd18f267b0c';
+const API_KEY = '';
 
 const WeatherUpdate = () => {
     const [weather, setWeather] = useState({
